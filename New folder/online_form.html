@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>HOME PAGE</title>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	text-align: center;
+	font-size: xx-large;
+	font-family: "Bookman Old Style";
+}
+.auto-style3 {
+	border: 4px solid #00FF00;
+	background-color: #808080;
+}
+.auto-style4 {
+	text-align: center;
+	font-size: small;
+	font-family: "Bookman Old Style";
+}
+.auto-style5 {
+	color: #800000;
+}
+.auto-style6 {
+	font-family: "Bookman Old Style";
+	background-color: #FFFFFF;
+}
+.auto-style7 {
+	text-align: center;
+	font-size: xx-large;
+	font-family: "Bookman Old Style";
+	text-decoration: underline;
+}
+.auto-style8 {
+	border: 4px solid #FF00FF;
+	background-color: #00FF00;
+}
+.auto-style9 {
+	font-size: large;
+}
+.auto-style10 {
+	font-weight: bold;
+}
+</style>
+<script type="text/javascript">
+function updateDateTime() {
+    var now = new Date();
+    var dateTimeString = "<strong>" + now.toLocaleString() + "</strong>";
+    document.getElementById("dateTime").innerHTML = dateTimeString;
+}
+
+// Update the date and time every second
+setInterval(updateDateTime, 1000);
+</script>
+</head>
+
+<body style="background-color: #00FFFF" onload="updateDateTime()">
+
+<p class="auto-style1">&nbsp;</p>
+<p class="auto-style2"><strong>RWAMUCUCU SEED SECONDARY SCHOOL</strong></p>
+<table align="center" cellpadding="3" cellspacing="3" class="auto-style3" style="width: 50%">
+	<tr>
+		<td class="auto-style4"><strong><a href="HOME.html">HOME PAGE</a></strong></td>
+		<td class="auto-style4"><strong><a href="academics.html">ACADEMICS</a></strong></td>
+		<td class="auto-style4"><strong><a href="project.html">PROJECTS</a></strong></td>
+		<td class="auto-style4"><strong><a href="sports.html">SPORTS</a></strong></td>
+		<td class="auto-style4"><strong><a href="online_form.html">ONLINE&nbsp; 
+		FORM</a></strong></td>
+	</tr>
+</table>
+<hr class="auto-style5" noshade="noshade" style="height: 10px" />
+<strong>
+<marquee class="auto-style6">Welcome to Rwamucucu seed secondary school </marquee></strong>
+
+<p id="dateTime" class="auto-style7"><strong>online application form</strong></p>
+<table align="center" cellpadding="4" cellspacing="4" class="auto-style8" style="width: 70%">
+	<tr>
+		<td class="auto-style1" style="width: 748px">
+		<form action="" class="auto-style9" method="post">
+			your name:<input name="Text1" type="text" /><br />
+			<br />
+			your Email<input name="Text2" type="text" /><br />
+			<br />
+			parents name<input name="Text3" type="text" /><br />
+			<br />
+			parents contact<input name="Text4" type="text" /><br />
+			<br />
+			gender<input checked="checked" name="Radio1" type="radio" /> male&nbsp;
+			<input name="Radio1" type="radio" />female <br />
+			<br />
+			resuilts /CV<input name="File1" type="file" /><br />
+			<br />
+			more about your self <textarea cols="20" name="TextArea1" rows="2"></textarea><br />
+			<br />
+			<strong>
+			<input class="auto-style10" name="reset" type="reset" value="clear form" /></strong>&nbsp;&nbsp;&nbsp;&nbsp;
+			<input class="auto-style10" name="Submit1" style="width: 147px" type="submit" value="submit application" /><br />
+		</form>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
